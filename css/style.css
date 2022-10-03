@@ -10,6 +10,13 @@
     text-transform: uppercase;
 }
 
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* HEADER */
 
 header{
     height: 90px;
@@ -22,9 +29,27 @@ header .menu{
     max-width: 1130px;
     margin: 0 auto;
 }
+
+header .fa-bars{
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 1px solid white;
+}
+header .menu ul{
+    list-style: none;
+}
+header .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
 header, .jumbotron{
     color: white;
 }
+
+
+/* JUMBOTRON */
 
 .jumbotron{
     height: 495px;
@@ -59,6 +84,16 @@ main .box{
 main section .about{
     height: 400px;
     max-height: 550px;
+    background-color: #1ABC9B;
+    color: white;
+}
+
+main .about .btn{
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+main .contact-me .btn{
     background-color: #1ABC9B;
     color: white;
 }

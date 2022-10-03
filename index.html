@@ -14,17 +14,19 @@
 <body>
    <header>
     <div class="menu">
-        <div class="container-lg">
+        <div class="container-lg ">
             <div class="row">
-                <div class="col logo ">LOGO</div>
+                <div class="col logo">START BOOTSTRAP</div>
                 <nav class="col d-none d-md-block text-end">
-                    <ul class="menu-h">
-                        <li class="uppersize">Portfolio</li>
-                        <li class="uppersize">about</li>
-                        <li class="uppersize">contact</li>
+                    <ul class="menu-h d-flex justify-content-between align-content-center">
+                        <li class="uppersize"><a href="#">Portfolio</a></li>
+                        <li class="uppersize"><a href="#">about</a></li>
+                        <li class="uppersize"><a href="#">contact</a></li>
                     </ul>
                 </nav>
-                <div class="col d-md-none text-end">h</div>
+                <div class="col d-md-none text-end">
+                    <a href="#" class="text-reset"><i class="fa-solid fa-bars rounded-2"></i></a>
+                </div>
             </div>
         </div>
 
@@ -69,7 +71,7 @@
                     <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo laudantium ducimus, sint, voluptas debitis excepturi reiciendis expedita, impedit fugiat est laboriosam totam cum! Nemo corrupti quisquam mollitia at quae?</p></div>
                     <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo laudantium ducimus, sint, voluptas debitis excepturi reiciendis expedita, impedit fugiat est laboriosam totam cum! Nemo corrupti quisquam mollitia at quae?</p></div>
                 </div>
-                <div class="button d-flex justify-content-center align-content-center align-items-center"><span>Download</span></div>
+                <div class="btn btn-outline-light align-items-center d-flex justify-content-center"><span>Download</span></div>
             </div>
 
         </div>
@@ -88,7 +90,7 @@
                     <div class="col-1 pb-2 text-capitalize">email adress</div>
                     <div class="col-1 pb-2 text-capitalize">phone number</div>
                     <div class="col-8 pb-2 text-capitalize">message</div>
-                    <div class="col-1 pb-2"><span>send</span></div>
+                    <div class="col-1 mb-3 btn px-2"><span>Send</span></div>
                 </div>
             </div>
         </div>
@@ -97,7 +99,7 @@
    </main>
 
    <footer>
-    <div class="footer-top">
+    <div class="footer-top d-flex justify-content-between  align-content-center">
         <div class="container-xxl">
             <div class="row row-cols-1 row-cols-md-3">
                 <div class="col pb-3">
@@ -107,15 +109,15 @@
                 <div class="col pb-3">
                     <h3 class="uppersize">around the web</h3>
                     <div class="social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-google-plus-g"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="#" class="text-reset"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-reset"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="text-reset"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-reset"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col pd-3">
                     <h3 class="uppersize">about freelancer</h3>
-                    <span>Freelance is a free to use, open source Bootstrap theme created by <a class="text-reset" href="#">Start Bootstrap</a></span>
+                    <span>Freelance is a free to use, open source Bootstrap theme created by <a class="text-reset" href="#">Start Bootstrap.</a></span>
                 </div>
             </div>
         </div>
@@ -124,7 +126,9 @@
 
     <div class="footer-bottom">
         <div class="container-md">
-            <div class="text-capitalize text-center align-items-center justify-content-center"><span>aaaa</span></div>
+            <div class="text-capitalize text-center align-items-center justify-content-center">
+                <span>Copyright &copy; your website 2019</span>
+            </div>
         </div>
     </div>
 

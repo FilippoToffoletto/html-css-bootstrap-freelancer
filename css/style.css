@@ -62,3 +62,29 @@ main section .about{
     background-color: #1ABC9B;
     color: white;
 }
+
+
+/* FOOTER */
+
+footer{
+    height: 340px;
+    max-height: 563px;
+    background-color: #3A546D;
+    color: white;
+}
+
+footer .footer-top{
+    height: 80%;
+    padding: 10px;
+}
+
+.footer-top i{
+    border: 1px solid white;
+    border-radius: 60%;
+    padding: 15px;
+}
+
+footer .footer-bottom{
+    height: 20%;
+    background-color: #2C3E50;
+}

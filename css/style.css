@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILITIES */
+
+.uppersize{
+    text-transform: uppercase;
+}
+
+
+header{
+    height: 90px;
+
+    /* DEBUG */
+    background-color: #2C3E50;
+}
+header .menu{
+    width: 90%;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+header, .jumbotron{
+    color: white;
+}
+
+.jumbotron{
+    height: 495px;
+    max-height: 590px;
+
+    /* DEBUG */
+    background-color: #1ABC9B;
+}
+
+
+
+.logo{
+    background-color: lightpink;
+}
+.menu-h{
+    background-color: darkorchid;
+}
+
+/* MAIN */
+
+main h2, .star{
+    text-align: center;
+}
+
+main .box{
+    height: 200px;
+    max-height: 260px;
+    /* debug */
+    background-color: rgb(43, 43, 237);
+}
+
+main section .about{
+    height: 400px;
+    max-height: 550px;
+    background-color: #1ABC9B;
+    color: white;
+}

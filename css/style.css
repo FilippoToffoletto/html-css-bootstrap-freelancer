@@ -89,8 +89,6 @@ div.jumbotron div.container.text-center div.row h2{
     color: black;
 }
 
-.card .col{
-}
 
 /* ABOUT */
 
@@ -128,7 +126,6 @@ footer{
 }
 
 footer .footer-top{
-    height: 230px;
 }
 
 footer .footer-bottom{
@@ -139,5 +136,5 @@ footer .footer-bottom{
 footer div.container.footer-top.text-center div.container.align-items-center.pt-5 div.row.row-cols-1.row-cols-md-3 div.col div.social a.text-reset{
     border-radius: 50%;
     border:1px solid  white;
-    padding: 5px 10px;
+    padding: 5px 7px;
 }

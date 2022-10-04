@@ -5,137 +5,194 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Freelance bootstrap</title>
+
+    <title>Freelancer</title>
 </head>
 <body>
-   <header>
-    <div class="menu">
-        <div class="container-lg ">
-            <div class="row">
-                <div class="col logo">START BOOTSTRAP</div>
-                <nav class="col d-none d-md-block text-end">
-                    <ul class="menu-h d-flex justify-content-between align-content-center">
-                        <li class="uppersize"><a href="#">Portfolio</a></li>
-                        <li class="uppersize"><a href="#">about</a></li>
-                        <li class="uppersize"><a href="#">contact</a></li>
+    <header>
+        <div class="container h-100">
+            <nav class="navbar navbar-expand-lg align-items-center">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Logo</a>
+                  <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">   
+                        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                    
+                    </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
                     </ul>
-                </nav>
-                <div class="col d-md-none text-end">
-                    <a href="#" class="text-reset"><i class="fa-solid fa-bars rounded-2"></i></a>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="image">IMMAGINE</div>
                 </div>
             </div>
         </div>
-
-    </div>    
-   </header>
-
-   <div class="jumbotron">
-    <div class="d-flex flex-column justify-content-center align-items-center h-100 text-center">
-        <div class="mb-3">IMMAGINE</div>
-        <div class="mb-3">
-            <h1 class="uppersize">start bootstrap</h1>
-            <div class="star">------ star -------</div>
-            <div class="text uppersize"><span>graphic artist - weeb deisgner - illustrator</span></div>
-        </div>
-    </div>
-   </div>
-
-   <main>
-    <div class="title p-3">
-        <h2 class="uppersize mt-3">portfolio</h2>
-        <div class="star">------ star -------</div>
-    </div>
-    <div class="container-sm pb-5">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col rounded-4 box">1</div>
-            <div class="col rounded-4 box">2</div>
-            <div class="col rounded-4 box">3</div>
-            <div class="col rounded-4 box">4</div>
-            <div class="col rounded-4 box">5</div>
-            <div class="col rounded-4 box">6</div>
-        </div>
-    </div>
-
-    <section>
-        <div class="about">
-            <div class="title p-3">
-                <h2 class="uppersize mt-3">about</h2>
-                <div class="star">------ star -------</div>
+        <div class="container text-center">
+            <div class="row">
+                <h2>Start Bootstrap</h2>
+                <div class="star">*</div>
+                <div class="text">Lorem ipsum dolor sit</div>
             </div>
-            <div class="container-sm justify-content-center">
+        </div>
+    </div>
+
+    
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio">
+
+        <div class="container text-center pt-3">
+            <div class="row">
+                <h2>Portfolio</h2>
+                <div class="star">*</div>
+            </div>
+        </div>
+
+        <div class="container cards pb-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /PORTFOLIO -->
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <div class="container text-center pt-3">
+            <div class="row">
+                <h2>About</h2>
+                <div class="star">*</div>
+            </div>
+        </div>
+
+        <div class="ft-container">
+            <div class="container-fluid">
                 <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo laudantium ducimus, sint, voluptas debitis excepturi reiciendis expedita, impedit fugiat est laboriosam totam cum! Nemo corrupti quisquam mollitia at quae?</p></div>
-                    <div class="col"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo laudantium ducimus, sint, voluptas debitis excepturi reiciendis expedita, impedit fugiat est laboriosam totam cum! Nemo corrupti quisquam mollitia at quae?</p></div>
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus a, sit blanditiis facere, perferendis cum, quae ad provident numquam autem accusantium dolorem. Corrupti velit excepturi magnam iure aliquam repudiandae error esse culpa quidem rem commodi, numquam, libero nobis quasi!    
+                    </div>
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minus a, sit blanditiis facere, perferendis cum, quae ad provident numquam autem accusantium dolorem. Corrupti velit excepturi magnam iure aliquam repudiandae error esse culpa quidem rem commodi, numquam, libero nobis quasi!
+                    </div>
                 </div>
-                <div class="btn btn-outline-light align-items-center d-flex justify-content-center"><span>Download</span></div>
             </div>
+        </div>
 
+        <div class="container text-center pt-3 pb-5">
+            <a href="#" class="ft-btn ft-green text-reset"><i class="fa-solid fa-download"></i> Download</a>
+        </div>
+    </section>
+
+    <!-- /ABOUT -->
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <div class="container text-center">
+            <div class="row">
+                <h2>Contact</h2>
+                <div class="star">*</div>
+            </div>
+        </div>
+
+        <div class="ft-container pb-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                            <label for="exampleFormControlInput2" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email Adress">
+                            <label for="exampleFormControlInput3" class="form-label"></label>
+                            <input type="phone" class="form-control" id="exampleFormControlInput3" placeholder="Phone Number">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">    </label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="ft-btn ft-green text-re">Send</a>
         </div>
 
     </section>
+    <!-- /CONTACT -->
 
-    <div class="section">
-        <div class="contact-me">
-            <div class="title p-3">
-                <h2 class="uppersize mt-3">contact me</h2>
-                <div class="star">------ star -------</div>
-            </div>
-            <div class="container-sm">
-                <div class="row-cols-1">
-                    <div class="col-1 pb-2 text-capitalize">name</div>
-                    <div class="col-1 pb-2 text-capitalize">email adress</div>
-                    <div class="col-1 pb-2 text-capitalize">phone number</div>
-                    <div class="col-8 pb-2 text-capitalize">message</div>
-                    <div class="col-1 mb-3 btn px-2"><span>Send</span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   </main>
-
-   <footer>
-    <div class="footer-top d-flex justify-content-between  align-content-center">
-        <div class="container-xxl">
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col pb-3">
-                    <h3 class="uppersize">location </h3>
-                    <span class="text-capitalize">2215 john daniel drive clark, MO 54243</span>
-                </div>
-                <div class="col pb-3">
-                    <h3 class="uppersize">around the web</h3>
-                    <div class="social">
-                        <a href="#" class="text-reset"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="text-reset"><i class="fa-brands fa-google-plus-g"></i></a>
-                        <a href="#" class="text-reset"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#" class="text-reset"><i class="fa-brands fa-linkedin-in"></i></a>
+    <footer>
+        <div class="container footer-top text-center">
+            <div class="container align-items-center pt-5">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <h3 class="uppersize">location</h3>
+                        <span class="text-capitalize">
+                        2215 john daniel drive clark, MO 54243
+                        </span>
+                    </div>
+                    <div class="col">
+                        <h3 class="uppersize">around the web</h3>
+                        <div class="social">
+                            <a href="#" class="text-reset"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="text-reset"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#" class="text-reset"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="text-reset"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="uppersize">about freelancer</h3>
+                        <span>Freelance is a free to use, open source Bootstrap theme created by <a class="text-reset footer-link" href="#">Start Bootstrap.</a></span>
                     </div>
                 </div>
-                <div class="col pd-3">
-                    <h3 class="uppersize">about freelancer</h3>
-                    <span>Freelance is a free to use, open source Bootstrap theme created by <a class="text-reset" href="#">Start Bootstrap.</a></span>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <p>copyright</p>
+                    </div>  
                 </div>
             </div>
         </div>
-        
-    </div>
 
-    <div class="footer-bottom">
-        <div class="container-md">
-            <div class="text-capitalize text-center align-items-center justify-content-center">
-                <span>Copyright &copy; your website 2019</span>
-            </div>
-        </div>
-    </div>
-
-
-   </footer>
-
-
+    </footer>
     
+
 </body>
 </html>

@@ -1,125 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* [class^=container], 
+[class^=col], .ft-container{
+    border: 1px solid black;
+    background-color: rgba(255, 20, 145, 0.517);
+} */
 
-/* UTILITIES */
+body{
+    color: white;
+}
 
 .uppersize{
     text-transform: uppercase;
 }
 
-.btn a{
-    text-decoration: none;
-    color: white;
+.ft-container{
+    width: 60%;
+    margin: 0 auto;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 5px;
 }
 
 
-/* HEADER */
+/* HEEADER */
 
 header{
-    height: 90px;
+    background-color: #2C3E50;
+    color: white;
+}
+
+.navbar-toggler .fa-bars{
+    color: white;
+    border: none;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link{
+    color: white;
+}
+
+
+.jumbotron{
+    height: 490px;
+    background-color: #1ABC9B;
+}
+
+/* PORTFOLIO */
+#portfolio{
+    color: black;
+}
+.cards .col{
 
     /* DEBUG */
-    background-color: #2C3E50;
-}
-header .menu{
-    width: 90%;
-    max-width: 1130px;
-    margin: 0 auto;
+    height: 150px;
 }
 
-header .fa-bars{
-    font-size: 1.5rem;
-    padding: 5px;
-    border: 1px solid white;
+/* ABOUT */
+
+#about{
+    background-color: #1ABC9B;
 }
-header .menu ul{
-    list-style: none;
-}
-header .menu ul li a{
-    color: white;
+
+.ft-btn{
+    padding: 7px 10px;
+    border: 1px  solid white;
+    border-radius: 10px;
     text-decoration: none;
 }
 
-
-header, .jumbotron{
-    color: white;
+/* CONTACT */
+#contact .row{
+    color: black;
 }
 
-
-/* JUMBOTRON */
-
-.jumbotron{
-    height: 495px;
-    max-height: 590px;
-
-    /* DEBUG */
-    background-color: #1ABC9B;
+.form{
+    height: 500px;
 }
-
-
-
-.logo{
-    background-color: lightpink;
-}
-.menu-h{
-    background-color: darkorchid;
-}
-
-/* MAIN */
-
-main h2, .star{
-    text-align: center;
-}
-
-main .box{
-    height: 200px;
-    max-height: 260px;
-    /* debug */
-    background-color: rgb(43, 43, 237);
-}
-
-main section .about{
-    height: 400px;
-    max-height: 550px;
+.ft-container .ft-green{
     background-color: #1ABC9B;
     color: white;
 }
-
-main .about .btn{
-    max-width: 20%;
-    margin: 0 auto;
+.ft-container .ft-green:hover{
+    padding: 5px 5px;
 }
-
-main .contact-me .btn{
-    background-color: #1ABC9B;
-    color: white;
-}
-
 
 /* FOOTER */
 
 footer{
-    height: 340px;
-    max-height: 563px;
     background-color: #3A546D;
-    color: white;
 }
 
 footer .footer-top{
-    height: 80%;
-    padding: 10px;
-}
-
-.footer-top i{
-    border: 1px solid white;
-    border-radius: 60%;
-    padding: 15px;
+    height: 230px;
 }
 
 footer .footer-bottom{
-    height: 20%;
+    height: 110px;
     background-color: #2C3E50;
+}
+
+footer div.container.footer-top.text-center div.container.align-items-center.pt-5 div.row.row-cols-1.row-cols-md-3 div.col div.social a.text-reset{
+    border-radius: 50%;
+    border:1px solid  white;
+    padding: 5px 10px;
 }

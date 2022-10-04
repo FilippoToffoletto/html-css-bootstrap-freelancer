@@ -21,6 +21,22 @@ a:hover{
     padding: 5px 5px;
 }
 
+.star{
+    min-width: 350px;
+    max-width: 60%;
+    margin: 0 auto;
+    height: 20px;
+    font-size: 1.4rem;
+    padding: 20px 0px;
+}
+.star .line{
+    border: 2px solid  white;
+    height: 1px;
+    width: 200px;
+    max-width: 300px;
+    margin: 0px 10px;
+}
+
 
 /* HEEADER */
 
@@ -37,11 +53,28 @@ header{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link{
     color: white;
 }
+html body header div.container.h-100 nav.navbar.navbar-expand-lg.align-items-center div.container-fluid a.navbar-brand.text-reset:hover{
+    padding: 0px 0px;
+    background-color: #2c3e5000;
+    font-size: 1.3rem;
+}
 
+/* JUMBOTRON */
 
 .jumbotron{
+    padding-top: 10px;
+    margin-top: 45px;
     height: 490px;
     background-color: #1ABC9B;
+}
+
+.jumbotron .image img{
+    max-width: 40%;
+    width: 250px;
+}
+
+div.jumbotron div.container.text-center div.row h2{
+    font-weight: 800;
 }
 
 /* PORTFOLIO */

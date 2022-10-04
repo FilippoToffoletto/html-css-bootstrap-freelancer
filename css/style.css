@@ -36,6 +36,13 @@ a:hover{
     max-width: 300px;
     margin: 0px 10px;
 }
+.star .line-bk{
+    border: 2px solid  black;
+    height: 1px;
+    width: 200px;
+    max-width: 300px;
+    margin: 0px 10px;
+}
 
 
 /* HEEADER */
@@ -81,10 +88,8 @@ div.jumbotron div.container.text-center div.row h2{
 #portfolio{
     color: black;
 }
-.cards .col{
 
-    /* DEBUG */
-    height: 150px;
+.card .col{
 }
 
 /* ABOUT */
